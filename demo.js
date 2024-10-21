@@ -51,7 +51,7 @@ async function main() {
         // ]);
         
         //5. Find one listing 
-        //await findOndListingByName(client, "Infinite Views");
+        await findOndListingByName(client, "Infinite Views");
         
         //6.Find Many Listings
         // await findListingsWithMinimumBedroomsBathroomsAndMostRecentReviews(client, {
@@ -75,7 +75,7 @@ async function main() {
         // await deleteListingByName(client,"Cozy Cottage");
         
         //11. Delete many documents
-        await deleteListingScrappedBeforeDate(client,new Date())
+        // await deleteListingScrappedBeforeDate(client,new Date())
 
     } catch (e) {
         console.error(e);
